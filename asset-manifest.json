@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.f5497eb8.chunk.css",
+    "main.js": "/home/static/js/main.95ca8f95.chunk.js",
+    "main.js.map": "/home/static/js/main.95ca8f95.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.3c590061.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.3c590061.js.map",
+    "static/js/2.0f177e26.chunk.js": "/home/static/js/2.0f177e26.chunk.js",
+    "static/js/2.0f177e26.chunk.js.map": "/home/static/js/2.0f177e26.chunk.js.map",
+    "index.html": "/home/index.html",
+    "precache-manifest.834d3e516dbd460a492bd0b889e001c1.js": "/home/precache-manifest.834d3e516dbd460a492bd0b889e001c1.js",
+    "service-worker.js": "/home/service-worker.js",
+    "static/css/main.f5497eb8.chunk.css.map": "/home/static/css/main.f5497eb8.chunk.css.map",
+    "static/js/2.0f177e26.chunk.js.LICENSE.txt": "/home/static/js/2.0f177e26.chunk.js.LICENSE.txt",
+    "static/media/anna_funsten.jpeg": "/home/static/media/anna_funsten.851645d1.jpeg",
+    "static/media/ga.png": "/home/static/media/ga.541181b0.png",
+    "static/media/hashirshoaeb.png": "/home/static/media/hashirshoaeb.32f6b574.png",
+    "static/media/michigan.png": "/home/static/media/michigan.ad244fc0.png",
+    "static/media/vanderbilt.png": "/home/static/media/vanderbilt.7a065a28.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c590061.js",
+    "static/js/2.0f177e26.chunk.js",
+    "static/css/main.f5497eb8.chunk.css",
+    "static/js/main.95ca8f95.chunk.js"
+  ]
+}
