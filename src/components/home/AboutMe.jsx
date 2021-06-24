@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from "../../editable-stuff/resume.pdf";
+
 
 import axios from "axios";
 
@@ -10,15 +10,16 @@ const pictureLinkRegex = new RegExp(
 const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   const [profilePicUrl, setProfilePicUrl] = React.useState("");
   const [showPic, setShowPic] = React.useState(Boolean(link));
-
+  
+// eslint-disable-next-line 
   React.useEffect(() => {
     if (link && !pictureLinkRegex.test(link)) {
       handleRequest();
     } else {
       setProfilePicUrl(link);
     }
+// eslint-disable-next-line 
   }, [link]);
-
   const handleRequest = async () => {
     const instaLink = "https://www.instagram.com/";
     const instaQuery = "/?__a=1";

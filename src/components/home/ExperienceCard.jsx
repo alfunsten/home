@@ -2,6 +2,7 @@ import React from 'react';
 
 import { 
     Col,
+    // eslint-disable-next-line 
     Card
  } from "react-bootstrap";
 const ExperienceCard = ({data}) => {

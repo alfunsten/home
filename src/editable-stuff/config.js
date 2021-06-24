@@ -6,30 +6,18 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Anna",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Funsten",
+  message: " My goal is to use my medical background to create data driven and machine learning solutions for public health.",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://github.com/alfunsten",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/anna-funsten/",
     },
   ],
 };
@@ -51,11 +39,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
-  imageSize: 375,
+  imageLink: require("../editable-stuff/anna_funsten.jpeg"),
+  imageSize: 350,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Creative and insightful data scientist with enthusiasm for research and public health. Trained and practiced as a pediatric nurse practitioner with a deep knowledge in disease processes and strong communication skills with patients and co-workers. Natural intuition to interpret, problem solve and visualize data.",
+  resume: "https://docs.google.com/document/d/1pWaBVcPeoYBSRth_YDQtAnW6v8sZc1wNS--1QzMO_24/",
 };
 
 // PROJECTS SECTION
@@ -66,9 +54,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "alfunsten", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ['Ear-Effusion-Identifier', 'food-borne-disease-outbreaks-and-hospitalizations', 'movie-facts-vs-descriptions-nlp'],
 };
 
 // Leadership SECTION
@@ -100,24 +88,27 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Python"},
+    { name: "Numpy"},
+    { name: "Pandas"},
+    { name: "Sklearn"},
+    { name: "Matplotlib"},
+    { name: "Seaborn"},
+    { name: "Plotly"},
+    { name: "Machine Learning"},
+    { name: "Natural Language Processing"},
+    { name: "Data Cleaning and EDA"},
+    { name: "Statistics"},
+    { name: "Advanced Nursing"}
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Organized"},
+    { name: "Thorough"},
+    { name: "Adaptable"},
+    { name: "Multifaceted"},
+    { name: "Empathetic"},
+    { name: "Innovative"},
+    { name: "Atriculate"},
   ],
 };
 
@@ -126,26 +117,32 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+  "I'm currently looking for full-time data analyst or data science opportunity! Please feel free to email me at",
+  email: "alfunsten@gmail.com",
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Education",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'General Assembly Data Science Fellow',// Here Add Company Name
+      companylogo: require('../assets/img/ga.png'),
+      date: 'March 2021 – June 2021',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'MSN-Pediatric Nurse Practitioner Primary Care',
+      companylogo: require('../assets/img/vanderbilt.png'),
+      date: 'Aug 2015 – Aug 2017',
+    },
+    {
+      role: 'BS in Biopsychology, Cognition, and Neuroscience with a minor in Applied Statistics',
+      companylogo: require('../assets/img/michigan.png'),
+      date: 'Sept 2011 – May 2015',
     },
   ]
 }
+
 
 // Blog SECTION
 // const blog = {

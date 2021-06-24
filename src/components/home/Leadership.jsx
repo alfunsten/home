@@ -1,3 +1,4 @@
+// eslint-disable-next-line 
 import React, { useState, useEffect, Profiler } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
